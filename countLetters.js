@@ -5,6 +5,7 @@ const assertEqual = function(actual, expected) {
   } else console.log(`🛑 Assertion Failed: ${actual} !== ${expected}`);
 };
 */
+const assertEqual = require('./assertEqual');
 
 const countLetters = function(string) {
   let output = {};                          // - empty object
@@ -17,6 +18,7 @@ const countLetters = function(string) {
   } return output;                          // - returns finished object
 };
 
+module.exports = countLetters;
 // console.log(countLetters('LHL'));
 // console.log(countLetters('Another Big Old String'));
 // console.log(countLetters(`algernon cadwallader`));

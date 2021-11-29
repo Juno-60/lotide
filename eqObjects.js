@@ -69,6 +69,9 @@ const eqObjects = function(object1, object2) {
   return false;
 };
 
+/* TEST CASES
+---------------
+
 const object1 = { a: 1, b: 2};
 const object2 = { c: 1, d: 2};
 const object3 = { a: 1, b: 2};
@@ -116,3 +119,6 @@ assertEqual(eqObjects(ab, abNew), true);
 assertEqual(eqObjects(obj1, obj1), true); //true
 assertEqual(eqObjects(obj1, obj2), false); //false
 assertEqual(eqObjects(obj1, obj3), true); //true
+*/
+
+module.exports = eqObjects;

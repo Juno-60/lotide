@@ -27,6 +27,8 @@ const map = function(array, callback) {
   return results;
 };
 
+module.exports = map;
+
 const words = ["ground", "control", "to", "major", "tom"];
 const multiplyByTwo = [2, 4, 6, 8];
 const graduate = ["Lector", "Hawking", "Pepper", "Octopus"];

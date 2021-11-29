@@ -32,4 +32,6 @@ const without = function(source, itemsToRemove) {
   }
 };
 
+module.exports = without;
+
 console.log(without(array1, array2));
