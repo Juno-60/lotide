@@ -23,7 +23,7 @@ const assertArraysEqual = function(arr1, arr2) {
 };
 
 
-// creates new array from source, while removing items as specified in second array
+// creates new array from source, while removing items as specified by second array
 
 const without = function(source, itemsToRemove) {
   for (let i = 0; i < source.length; i++) {
